@@ -186,24 +186,6 @@ body {
 .feature-div {
   margin-top: 5rem;
 }
-/* 
-.feature-div .add-image {
-  min-height: 614px;
-  -webkit-text-fill-color: inherit;
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-clip: border-box;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  display: flex;
-  width: 80;
-  background-image: url("https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5af98b9f779b5a7d0a80351e_Ovahttps://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5af98b9f779b5a7d0a80351e_Oval%201.svg");
-} */
 
 .feature-div .text-section {
   text-align: center;
@@ -235,9 +217,6 @@ body {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  /* grid-template-areas: 
-  "meth meth meth"
-  "meth meth meth"; */
 }
 
 .methodology {
@@ -409,8 +388,6 @@ body {
 }
 
 .section-1 .section-1-second .card {
-  /* width: 250px; */
-  /* height: 300px; */
   position: relative;
   border-radius: 5px;
 }
@@ -457,10 +434,6 @@ body {
   display: flex;
 }
 
-.section-2 .section-2-first {
-  /* width: 50%; */
-}
-
 .section-2 h2 {
   font-size: 38px;
   color: #fff;
@@ -495,10 +468,6 @@ body {
   color: #b9cde4;
   text-align: left;
 }
-
-/* .section-2-list ul {
-  margin-bottom: 4rem;
-} */
 
 .section-2 .section-2-second {
   width: 100%;
@@ -560,8 +529,6 @@ body {
 .section-3 {
   padding: 2rem;
   display: flex;
-  /* flex-direction: column; */
-  /* align-items: center; */
   justify-content: center;
   height: 400px;
   width: 100%;
@@ -673,183 +640,4 @@ body {
   background-color: #2294ed;
   color: #fff;
   text-decoration: none;
-}
-
-@media screen and (min-width: 1024px) {
-  .second-part-2 {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .second-part {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 420px) {
-
-  .bannar > p {
-    font-size: 12px;
-    padding: 0 3rem;
-  }
-
-  .primary-btn {
-    display: block;
-    width: 100%;
-  }
-
-  .simple-text {
-    display: none;
-  }
-
-  .header {
-    flex-direction: column-reverse;
-    padding: 0 0;
-  }
-
-  .header-left {
-    width: 100%;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-  }
-
-  .header-left h1 {
-    font-size: 32px;
-  }
-
-  .company-images {
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-
-  .company-images > img {
-    width: 40%;
-  }
-
-  .article-1 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .article-1 .article-left {
-    width: 100%;
-    margin-top: -1.5rem;
-  }
-
-  .article-1 .article-right {
-    width: 100%;
-    padding: 1rem;
-    margin-top: -2.5rem;
-  }
-
-  .article-2 {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .section-1 .section-1-first h2 {
-    font-size: 28px;
-    margin-top: 2rem;
-    color: #183b56;
-    margin-bottom: 1rem;
-  }
-  .section-1 .section-1-second {
-    flex-direction: column;
-  }
-
-  .card {
-    width: 100%;
-  }
-
-  .section-2 {
-    flex-direction: column-reverse;
-    margin-top: 2.5rem;
-  }
-
-  .section-2 .section-2-second {
-    width: 100%;
-    display: flex;
-    height: 320px;
-  }
-
-  .section-2 .panelad-image .panelad-image-price {
-    width: 170px;
-    height: 160px;
-  }
-
-  .section-2-first {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .section-2 h2 {
-    font-size: 30px;
-  }
-
-  .section-2-text1 {
-    font-size: 16px !important;
-    text-align: left;
-  }
-
-  .section-2-list {
-    flex-direction: column;
-    gap: 0px;
-    margin-bottom: 2rem;
-  }
-
-  .section3-content h2 {
-    font-size: 28px;
-  }
-
-  .second-3-desc {
-    font-size: 14px;
-  }
-
-  .second-3-btn {
-    margin: 0 auto;
-    width: 60%;
-  }
-
-  .second-3-btn a {
-    padding: 1rem 2rem;
-  }
-
-  .footer-1 {
-    background-color: #ebf2fa;
-    width: 100%;
-    height: 100%;
-    padding: 4rem 3rem;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-  }
-
-  .footer-1-logo {
-    justify-content: center;
-    align-items: center;
-  }
-
-  .footer-2 .sub-footer-2 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-  }
-
-  .page-subfooter-legals {
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .social-logos {
-    width: 30px;
-  }
-
 }
