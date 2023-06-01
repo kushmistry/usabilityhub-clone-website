@@ -267,6 +267,7 @@ body {
   display: flex;
   margin-top: 3rem;
   gap: 50px;
+  padding: 0 2rem;
 }
 
 .article-1 .article-left {
