@@ -1,12 +1,6 @@
-const navIcon = document.querySelector('.nav-icon');
-const showDialog = document.querySelector('.show-dialog');
-const showDiv = () => {
-    showDialog.style.display = "flex";
-    // // showDialog.style.flexDirection = "column";
-    // // showDialog.style.justifyContent = "space-around";
-    // showDialog.style.marginTop = "-1.5rem";
-    // showDialog.style.alineItem = "space-between";
-    // showDialog.style.backgroundColor = "red";
-}
+const toggleButton = document.querySelector('#nav-toggle');
+const navLinks = document.querySelector('#nav-links');
 
-navIcon.addEventListener('click', showDiv);
+toggleButton.addEventListener("click", () => {
+    navLinks.classList.toggle('active');
+})

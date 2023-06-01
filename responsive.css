@@ -6,8 +6,21 @@
 
 @media screen and (max-width: 1024px) {
   .second-part {
-    display: none;
+    flex-direction: column;
+    gap: 40px;
+    position: absolute;
+    top: 100px;
+    left: -1000px;
+    width: 100%;
+    background-color: #fff;
+    padding-block: 20px ;
+    transition: 0.2s ease-in-out;
   }
+
+  .second-part.active {
+    left: 0px;
+  }
+
 }
 
 @media screen and (max-width: 420px) {
